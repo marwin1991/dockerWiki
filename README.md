@@ -40,3 +40,6 @@ Usunięcie wszystkich obrazów Linux/Mac
 docker rmi $(docker images -q)
 docker volume rm $(docker volume ls |awk '{print $2}'
 ```
+
+You can see where docker is storing that volume on your hard drive by running command:
+docker volume inspect docker_database
