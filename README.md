@@ -1,5 +1,14 @@
 # dockerWiki
 ---------------
+Wypisanie sieci
+```
+docker network ls
+```
+Czyszczenie nieużywanych sieci ( wyłączyć wysztkie docker )
+```
+docker network prune
+```
+
 
 Wypisanie volume
 ```
