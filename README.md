@@ -1,5 +1,10 @@
 # dockerWiki
 ---------------
+Łączenie się do dockera:
+```
+docker-compose exec docker-name sh
+```
+
 Wypisanie sieci
 ```
 docker network ls
