@@ -48,3 +48,11 @@ docker volume rm $(docker volume ls |awk '{print $2}'
 
 You can see where docker is storing that volume on your hard drive by running command:
 docker volume inspect docker_database
+
+
+
+!!!!!!!!!!!!!!
+Windows Docker Host - Linux container sockets (Docker Desktop Win 10)
+For Docker for Windows following seems to be working:
+
+-v //var/run/docker.sock:/var/run/docker.sock
